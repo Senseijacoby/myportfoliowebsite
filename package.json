@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/react-anchor-link-smooth-scroll": "^1.0.5",
     "@uidotdev/usehooks": "^2.3.1",
     "framer-motion": "^10.16.4",
     "next": "latest",
@@ -16,13 +17,15 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.46.2",
-    "react-responsive": "^9.0.2"
+    "react-responsive": "^9.0.2",
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "^14.0.4",
     "postcss": "latest",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "tailwindcss-animate": "^1.0.7"
   }
 }

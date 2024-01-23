@@ -31,7 +31,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-blue-700 ">
+    <div className="">
       <Navbar
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}

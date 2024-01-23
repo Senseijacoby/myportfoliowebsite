@@ -1,3 +1,4 @@
+"use client"
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function GroupedLinks({ selectedPage, setSelectedPage }) {

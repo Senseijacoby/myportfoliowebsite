@@ -41,7 +41,8 @@ export default function Skills() {
                 alt="skills"
                 className="z-10"
                 src="/assets/skills-image.png"
-                layout="fill"
+                width={450}
+                height={350}
               />
             </div>
           ) : (
@@ -49,8 +50,8 @@ export default function Skills() {
               alt="skills"
               className="z-10"
               src="/assets/skills-image.png"
-             width={700}
-             height={200}
+             width={450}
+             height={350}
             />
           )}
         </div>

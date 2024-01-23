@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         "deep-blue": "#3b82f6",
         blue: "#2CBCE9",
-        red: "#DC4492",
+        red: "#46344E",
         yellow: "#FDCC49",
         grey: "#ededed",
         "dark-grey": "#757575",
@@ -46,5 +46,5 @@ module.exports = {
     },
   },
 
-  plugins: [],
+  plugins: [require("tailwindcss-animate"),],
 };
